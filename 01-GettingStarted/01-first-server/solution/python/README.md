@@ -1,32 +1,34 @@
 # Ejecutar este ejemplo
 
-Se recomienda instalar `uv`, pero no es obligatorio. Consulta [instrucciones](https://docs.astral.sh/uv/#highlights)
+Se recomienda instalar `uv`, pero no es obligatorio. Consulta las [instrucciones](https://docs.astral.sh/uv/#highlights).
 
-## -0- Crear un entorno virtual
+(`uv` es un administrador de proyectos y paquetes de Python.)
+
+## -1- Crear un entorno virtual
 
 ```bash
 python -m venv venv
 ```
 
-## -1- Activar el entorno virtual
+## -2- Activar el entorno virtual
 
 ```bash
 venv\Scripts\activate
 ```
 
-## -2- Instalar las dependencias
+## -3- Instalar las dependencias
 
 ```bash
 pip install "mcp[cli]"
 ```
 
-## -3- Ejecutar el ejemplo
+## -4- Ejecutar el ejemplo
 
 ```bash
 mcp run server.py
 ```
 
-## -4- Probar el ejemplo
+## -5- Probar el ejemplo
 
 Con el servidor ejecutándose en un terminal, abre otro terminal y ejecuta el siguiente comando:
 
